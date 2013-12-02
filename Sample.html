@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Demo</title>
+		<link href="style.css" rel="stylesheet" />
+		<script src="confirmsa.js"></script>
+		<script src="sample.js"></script>
+	</head>
+	<body>
+        <h1>Demo Page</h1>
+        <h2>Sample: change class name</h2>
+        <p>
+            Type of confirm box : 
+            <select id="type">
+                <option value="important">Important</option>
+                <option value="normal">Normal</option>
+                <option value="notImportant">Not Important</option>
+            </select>
+        </p>
+		<p>
+			Press the button! <button onclick="runSample()"> Press ME Please!! </button>
+		</p>
+        <h2>Sample: pass in options</h2>
+        <p>
+            Set direction and text-aling :
+            <input type="button" onclick="runOptionsSample()" value="Click Me!!" />
+        </p>
+        <h2>Sample: html message</h2>
+        <p>
+            Confirm! <button onclick="runSecondSample()">Confirm me!</button>
+        </p>
+        <hr />
+	</body>
+</html>
