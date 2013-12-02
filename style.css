@@ -1,0 +1,121 @@
+#confirmsaPluginConfirmBox {
+    display: none;
+    position: absolute;
+    top: 90px;
+    left: 20%;
+    right: 20%;
+}
+
+.confirmsa-showConfirmBox {
+    display: block !important;
+    padding: 0.5em;
+    width: 60%;
+    font-size: 1.3em;
+    border-radius: 2px;
+}
+
+.confirmsa-showConfirmBox-i-c {
+    background-color: #1aaced;
+    -webkit-box-shadow: 0 0 1em #0c0c0c;
+    box-shadow: 0 0 1em #0c0c0c;
+    color: #fff;
+    -webkit-text-shadow: 1px 1px #727272;
+    text-shadow: 1px 1px #727272;
+}
+
+.confirmsa-showConfirmBox-n-c {
+    background-color: #ddd;
+    -webkit-box-shadow: 0 0 1em #0c0c0c;
+    box-shadow: 0 0 1em #0c0c0c;
+    color: #727272;
+    -webkit-text-shadow: 1px 1px #ccc;
+    text-shadow: 1px 1px #ccc;
+}
+
+.confirmsa-showConfirmBox-ni-c {
+    background-color: #cee123;
+    -webkit-box-shadow: 0 0 1em #0c0c0c;
+    box-shadow: 0 0 1em #0c0c0c;
+    color: #0c0c0c;
+    -webkit-text-shadow: 1px 1px #35b710;
+    text-shadow: 1px 1px #35b710;
+}
+
+.confirmsa-showConfirmBox-i-c-btn {
+    background-color: #0072a5;
+    color: #fff;
+    -webkit-text-shadow: 1px 1px #3D3D3D;
+    text-shadow: 1px 1px #3D3D3D;
+}
+
+    .confirmsa-showConfirmBox-i-c-btn:hover {
+        background-color: #014a6b;
+        -webkit-box-shadow: 0 0 5em #003851 inset;
+        box-shadow: 0 0 5em #003851 inset;
+        -webkit-text-shadow: 0 0 5px #000;
+        text-shadow: 0 0 5px #000;
+    }
+
+.confirmsa-showConfirmBox-n-c-btn {
+    background-color: #8D8D8D;
+    color: #fff;
+    -webkit-text-shadow: 1px 1px #3D3D3D;
+    text-shadow: 1px 1px #3D3D3D;
+}
+
+    .confirmsa-showConfirmBox-n-c-btn:hover {
+        background-color: #c0c0c0;
+        -webkit-box-shadow: 0 0 5em #0c0c0c inset;
+        box-shadow: 0 0 5em #0c0c0c inset;
+        -webkit-text-shadow: 0 0 5px #000;
+        text-shadow: 0 0 5px #000;
+    }
+
+.confirmsa-showConfirmBox-ni-c-btn {
+    background-color: #007036;
+    color: #fff;
+    -webkit-text-shadow: 1px 1px #3D3D3D;
+    text-shadow: 1px 1px #3D3D3D;
+}
+
+    .confirmsa-showConfirmBox-ni-c-btn:hover {
+        background-color: #003718;
+        -webkit-box-shadow: 0 0 5em #0c0c0c inset;
+        box-shadow: 0 0 5em #0c0c0c inset;
+        -webkit-text-shadow: 0 0 5px #eaeaea;
+        text-shadow: 0 0 5px #eaeaea;
+    }
+
+.confirmsa-blockUi {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #fff;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=60)";
+    filter: alpha(opacity=60);
+    -moz-opacity: 0.6;
+    -khtml-opacity: 0.6;
+    opacity: 0.6;
+}
+
+.confirmsa-button {
+    border-radius: 4px;
+    border: none;
+    padding: 6px;
+    cursor: pointer;
+    min-width: 6em;
+    -moz-transition: all ease-in-out 0.2s;
+    -o-transition: all ease-in-out 0.2s;
+    -webkit-transition: all ease-in-out 0.2s;
+    transition: all ease-in-out 0.2s;
+    margin: 2px;
+}
+
+.confirmsa-btnsHolder{
+    text-align:center !important;
+    padding:0;
+    margin:0;
+}
